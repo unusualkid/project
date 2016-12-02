@@ -1,4 +1,4 @@
-.header-row {
+#header-row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -7,10 +7,10 @@
     .logo {
         height: 50px;
     }
-    .header-1 {
+    #header-1 {
         width:50%;
     }
-    .header-2 {
+    #header-2 {
         width:50%;
         margin:1px 0;
     }
@@ -28,10 +28,10 @@
     .logo {
         height: 70px;
     }
-    .header-1 {
+    #header-1 {
         width:50%;
     }
-    .header-2 {
+    #header-2 {
         width:50%;
     }
     .main-title {
@@ -51,10 +51,10 @@
     .logo {
         height: 90px;
     }
-    .header-1 {
+    #header-1 {
         width:50%;
     }
-    .header-2 {
+    #header-2 {
         width:50%;
     }
     .main-title {

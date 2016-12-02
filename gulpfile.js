@@ -3,11 +3,11 @@ var gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('resize', function(){
-    gulp.src('img-src/*.jpg')
+    gulp.src('img-src/*.jpg','')
         .pipe(resize({
             width: 300,
             height: 300,
-            upscale:false
+            upscale: false
         }))
         .pipe(gulp.dest('img-dst/'))
 });

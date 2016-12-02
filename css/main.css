@@ -4,9 +4,6 @@
   font-family: 'zocial', sans-serif;
 }
 
-header-1{
-    background-color: black;
-}
 /*
 * {
     border: 1px solid red;
@@ -33,14 +30,10 @@ h1, h3 {
 .logo{
     max-width:100%;
 }
-
+/*
 .center-image{
     width: 100%;
-}
-
-.col-md-4 img {
-    width: 100%;
-}
+}*/
 
 .social-media {
     text-align: right;
